@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&family=Press+Start+2P&display=swap');
+
+:root{
+    --cor-primaria: #000000;
+    --cor-secundaria: #F5EDED;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+.cabecalho{
+    padding: 2% 0% 2% 35%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 20px;
+}
+
+.cabecalho__menu__link{
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-family: 'Press Start 2P', system-ui;
+}
+
+.imagens__cartaz{
+    padding: 0px 0px 30px 78px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.imagens__cartaz__itens:hover{
+    border: solid 3px #3E3636;
+}
+
+.imagens__cartaz__itens{
+    border-radius: 5%;
+}
+
+.rodape{
+    display: flex;
+    color: var(--cor-secundaria);
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 24px;
+    font-weight: 400;
+    width: 1815px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
